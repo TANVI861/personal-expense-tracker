@@ -1,0 +1,169 @@
+/* ================= GENERAL ================= */
+
+body {
+    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+    color: #212529;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+
+/* ================= PAGE HEADING ================= */
+
+h1 {
+    font-weight: 700;
+}
+
+.text-muted {
+    font-size: 16px;
+}
+
+
+/* ================= CARDS ================= */
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+    border-radius: 12px 12px 0 0 !important;
+}
+
+
+/* ================= SUMMARY CARDS ================= */
+
+.summary-card {
+    transition: transform 0.2s ease;
+}
+
+.summary-card:hover {
+    transform: translateY(-4px);
+}
+
+.summary-card h5 {
+    color: #555;
+    font-weight: 600;
+}
+
+.summary-card h2 {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+/* ================= FORM ================= */
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+
+/* ================= BUTTONS ================= */
+
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+/* ================= TABLE ================= */
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+
+/* ================= DELETE BUTTON ================= */
+
+.delete-btn {
+    min-width: 70px;
+}
+
+
+/* ================= CATEGORY BADGE ================= */
+
+.badge {
+    padding: 7px 10px;
+    font-size: 12px;
+}
+
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+@media (max-width: 768px) {
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .summary-card h2 {
+        font-size: 24px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+}
+
+
+/* ================= SMALL DEVICES ================= */
+
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
